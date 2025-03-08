@@ -1,0 +1,14 @@
+import time
+palabras_genz = {
+    "Cringe": "Algo que da verguenza ajena.",
+    "Lol": "Significa riendose fuertemente.",
+    "Bro": "Manera de referirse a un amigo cercano.",
+    "XD": "Representa a una cara riendose.",
+}
+while True:
+    palabragenz = input("¿Que palabra no entendes de las que se usan ahora?")
+    if palabragenz in palabras_genz.keys():
+        print(palabras_genz[palabragenz])
+    else:
+        print("Disculpenos, la palabra no está en nuestra base de datos, pruebe escribiendola de otra manera.")
+    time.sleep(5)
