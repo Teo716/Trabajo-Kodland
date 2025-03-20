@@ -3,7 +3,7 @@ caracteres = "+-/*!&$#?=@abcdefghijklnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234
 longitud = int(input("¿De que longitud queres la contraseña?"))
 contrasena = "H"
 for i in range(longitud):
-    numero = random.randint(1,75)
+    numero = random.randint(1,71)
     if i == 0:
         contrasena = caracteres[numero]
     else:
